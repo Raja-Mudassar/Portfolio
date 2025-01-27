@@ -1,0 +1,95 @@
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body {
+    background-color: rgb(22, 21, 20);
+    margin: 0;
+    padding: 0;
+    color: #f8f9fa;
+    font-family: "Poppins", serif;
+  }
+  .title {
+    font-size: 2.5rem; 
+    font-family: "Poppins", serif;
+    font-weight: 900;
+  }
+  .resume-btn {
+    background-color: #1e86f7;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .resume-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  .navbar {
+    background-color: #333;
+  }
+  .navbar-brand h4 {
+    color: #fff;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 576px) {
+    .title {
+      font-size: 2rem;
+    }
+    .resume-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+    .h5 {
+      font-size: 1.2rem;
+    }
+    .display-5 {
+      font-size: 1.8rem;
+    }
+  }
+
+  /* .about{
+    margin-top: 100px;
+  }
+  .about-content{
+    width: 800px;
+  }
+ 
+
+
+.college {
+    width: 800px;
+    margin-left: auto;  
+    }
+    .year{
+        margin-left: 500px;
+    }
+.year ul li{
+ align-items: center;
+ margin-left: auto;
+ text-align: left;
+
+} */
