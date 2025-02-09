@@ -20,8 +20,17 @@
     font-family: "Poppins", serif;
     font-weight: 900;
   }
+
+  .logo {
+    transition: filter 0.5s ease;
+  }
+  
+  .logo:hover {
+    filter: brightness(0) invert(70%) sepia(100%) saturate(1000%) hue-rotate(200deg);
+  }
+
   .resume-btn {
-    background-color: #1e86f7;
+    background-color:  rgb(31,118,203);
     color: #fff;
     border: 2px solid white;
     padding: 10px 20px;
@@ -70,26 +79,9 @@
       font-size: 1.8rem;
     }
   }
+  footer{
+    background-color: #f8f9fa;
+    color: black;
+  }
 
-  /* .about{
-    margin-top: 100px;
-  }
-  .about-content{
-    width: 800px;
-  }
  
-
-
-.college {
-    width: 800px;
-    margin-left: auto;  
-    }
-    .year{
-        margin-left: 500px;
-    }
-.year ul li{
- align-items: center;
- margin-left: auto;
- text-align: left;
-
-} */
